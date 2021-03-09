@@ -4,6 +4,6 @@ services:
     image: trust-dns:latest
     command: "-c /configs/example.toml -z /configs/ -p 24141"
     ports:
-      - 24141:24141
+      - 24141:24141/udp
     volumes:
       - ./configs:/configs:ro
