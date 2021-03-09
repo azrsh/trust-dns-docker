@@ -1,0 +1,9 @@
+version: '3.0'
+services:
+  trust-dns:
+    image: trust-dns:latest
+    command: "-c /configs/example.toml -z /configs/ -p 24141"
+    ports:
+      - 24141:24141
+    volumes:
+      - ./configs:/configs:ro
