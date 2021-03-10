@@ -25,7 +25,5 @@ trust-dns repository is [here](https://github.com/bluejekyll/trust-dns).
 1. Write configs.
     + If you want to run test configs, you can copy configs from [named\_test\_configs in trust-dns repository](https://github.com/bluejekyll/trust-dns/tree/main/tests/test-data/named_test_configs).
 1. Fix image source `docker-compose.yml`.
-  + `ghcr.io/azarashi2931/trust-dns:latest` -> `trust-dns`
+    + `ghcr.io/azarashi2931/trust-dns:latest` -> `trust-dns`
 1. Run `docker-compose up`.
-
-
