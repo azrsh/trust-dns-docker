@@ -1,5 +1,8 @@
 # trust-dns-docker
 
+This is a Dockerfile and docker-compose.yml for dockerizing trust-dns.  
+trust-dns repository is [here](https://github.com/bluejekyll/trust-dns).  
+
 ## Prerequirement
 + Docker
 + Docker Compose
