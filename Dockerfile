@@ -1,4 +1,4 @@
-FROM rust:1.58.1-buster as build-env
+FROM rust:1.60.0-buster as build-env
 
 RUN git clone https://github.com/bluejekyll/trust-dns -b v0.20.3 --depth 1 
 WORKDIR /trust-dns
